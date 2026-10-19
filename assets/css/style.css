@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/* base */
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family:
+    "Noto Sans JP", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  word-break: break-all;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.inner {
+  max-width: 800px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+main {
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+ul > li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.sitemap-container {
+    text-align: center;
+}
+
+.wireframe-container,
+.designcomp-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.wireframe-container figure,
+.designcomp-container figure {
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 200px;
+}
+
+.wireframe-container figcaption,
+.designcomp-container figcaption {
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  .inner {
+    padding: 0 16px;
+  }
+}
